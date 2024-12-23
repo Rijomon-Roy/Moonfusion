@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Moon T.V</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <h1 class="navbar-heading">Moon T.V</h1>
+      <!-- <a href="watch.html" class="watchlist-link">
+        <button class="watchlist-btn">Watchlist</button>
+      </a> -->
+    </nav>
+
+    <!-- Background Video -->
+    <div class="background-video">
+      <video autoplay muted loop>
+        <source src="video1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Centered Content -->
+    <div class="content">
+      <h2><strong>Discover Movies Tailored for You</strong></h2>
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Search for a movie..." />
+        <button id="searchBtn">🔍</button>
+      </div>
+    </div>
+
+    <!-- Movie Container -->
+    <div id="movieContainer" class="movie-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
